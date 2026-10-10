@@ -1,0 +1,30 @@
+; Engine configuration file.
+; Society Lab · 人类社会实验室 — Godot 4.2+
+config_version=5
+
+[application]
+
+config/name="Society Lab 人类社会实验室"
+config/description="上帝视角社会演化沙盒：创造世界、施加神力、观察文明、制度与历史的自然演化。"
+run/main_scene="res://scenes/Main.tscn"
+config/quit_on_go_back=false
+config/icon="res://icon.svg"
+
+[autoload]
+
+Audio="*res://scripts/audio/AudioManager.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/minimum_width=1280
+window/size/minimum_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.09, 0.11, 0.16, 1)

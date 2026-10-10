@@ -1,0 +1,17 @@
+# Godot 4 生成目录（导入缓存，不入库）
+.godot/
+*.translation
+
+# 导出产物
+/build/
+/export/
+*.exe
+*.zip
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Python（dev_tools 资产再生成脚本）
+__pycache__/
+*.pyc

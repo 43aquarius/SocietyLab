@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Society Lab 项目图标：等距小岛 + 文明之光 + 实验轨道 -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232a3a"/>
+      <stop offset="1" stop-color="#141826"/>
+    </linearGradient>
+    <linearGradient id="isle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ed36a"/>
+      <stop offset="1" stop-color="#5ba84e"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fc7e8"/>
+      <stop offset="1" stop-color="#3a86c8"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="url(#bg)" stroke="#e8b44a" stroke-width="3"/>
+  <!-- 轨道弧线（实验室意象） -->
+  <g fill="none" stroke="#e8b44a" stroke-width="3" opacity="0.9">
+    <ellipse cx="64" cy="58" rx="52" ry="24" transform="rotate(-18 64 58)"/>
+  </g>
+  <circle cx="108" cy="38" r="7" fill="#e8b44a"/>
+  <!-- 等距岛屿：水面 -->
+  <g>
+    <polygon points="64,46 112,72 64,98 16,72" fill="url(#water)"/>
+    <polygon points="64,56 96,73 64,90 32,73" fill="url(#isle)"/>
+    <polygon points="64,56 96,73 64,90 32,73" fill="none" stroke="#3c7f3a" stroke-width="2" opacity="0.55"/>
+  </g>
+  <!-- 微型聚落：两座小屋 -->
+  <g>
+    <rect x="52" y="62" width="10" height="9" fill="#f4e6c8" stroke="#8a6d3b" stroke-width="1.5"/>
+    <polygon points="50,62 57,56 64,62" fill="#c9553f"/>
+    <rect x="66" y="66" width="9" height="8" fill="#f4e6c8" stroke="#8a6d3b" stroke-width="1.5"/>
+    <polygon points="64,66 70,61 77,66" fill="#c9553f"/>
+  </g>
+  <!-- 小树 -->
+  <g>
+    <polygon points="40,66 45,58 50,66" fill="#2f7d46"/>
+    <rect x="44" y="66" width="2.4" height="5" fill="#7a5230"/>
+  </g>
+  <!-- 文字基点 -->
+  <circle cx="64" cy="112" r="3" fill="#e8b44a" opacity="0.85"/>
+</svg>

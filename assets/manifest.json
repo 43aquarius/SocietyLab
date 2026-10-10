@@ -1,0 +1,755 @@
+{
+ "_meta": "Society Lab asset manifest (generated)",
+ "entries": {
+  "tiles/grass_0": {
+   "file": "tiles/grass_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/grass_1": {
+   "file": "tiles/grass_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/grass_2": {
+   "file": "tiles/grass_2.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/forest_0": {
+   "file": "tiles/forest_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/forest_1": {
+   "file": "tiles/forest_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/water_0": {
+   "file": "tiles/water_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/water_1": {
+   "file": "tiles/water_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/water_2": {
+   "file": "tiles/water_2.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/rock_0": {
+   "file": "tiles/rock_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/rock_1": {
+   "file": "tiles/rock_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/fertile_0": {
+   "file": "tiles/fertile_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/fertile_1": {
+   "file": "tiles/fertile_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/sand_0": {
+   "file": "tiles/sand_0.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "tiles/sand_1": {
+   "file": "tiles/sand_1.png",
+   "foot": 6,
+   "w": 64,
+   "h": 32
+  },
+  "props/pine_0": {
+   "file": "props/pine_0.png",
+   "foot": 6,
+   "w": 40,
+   "h": 56
+  },
+  "props/pine_1": {
+   "file": "props/pine_1.png",
+   "foot": 6,
+   "w": 40,
+   "h": 56
+  },
+  "props/pine_2": {
+   "file": "props/pine_2.png",
+   "foot": 6,
+   "w": 40,
+   "h": 56
+  },
+  "props/oak_0": {
+   "file": "props/oak_0.png",
+   "foot": 6,
+   "w": 44,
+   "h": 48
+  },
+  "props/oak_1": {
+   "file": "props/oak_1.png",
+   "foot": 6,
+   "w": 44,
+   "h": 48
+  },
+  "props/peak": {
+   "file": "props/peak.png",
+   "foot": 8,
+   "w": 104,
+   "h": 96
+  },
+  "props/peak_snow": {
+   "file": "props/peak_snow.png",
+   "foot": 8,
+   "w": 104,
+   "h": 96
+  },
+  "props/rock_0": {
+   "file": "props/rock_0.png",
+   "foot": 5,
+   "w": 36,
+   "h": 28
+  },
+  "props/rock_1": {
+   "file": "props/rock_1.png",
+   "foot": 5,
+   "w": 36,
+   "h": 28
+  },
+  "props/ore_iron": {
+   "file": "props/ore_iron.png",
+   "foot": 6,
+   "w": 46,
+   "h": 42
+  },
+  "props/ore_gold": {
+   "file": "props/ore_gold.png",
+   "foot": 6,
+   "w": 46,
+   "h": 42
+  },
+  "props/bush": {
+   "file": "props/bush.png",
+   "foot": 5,
+   "w": 30,
+   "h": 24
+  },
+  "props/reeds": {
+   "file": "props/reeds.png",
+   "foot": 5,
+   "w": 30,
+   "h": 38
+  },
+  "buildings/camp_tent": {
+   "file": "buildings/camp_tent.png",
+   "foot": 6,
+   "w": 52,
+   "h": 46
+  },
+  "buildings/hut": {
+   "file": "buildings/hut.png",
+   "foot": 6,
+   "w": 46,
+   "h": 48
+  },
+  "buildings/house_wood": {
+   "file": "buildings/house_wood.png",
+   "foot": 6,
+   "w": 54,
+   "h": 54
+  },
+  "buildings/house_brick": {
+   "file": "buildings/house_brick.png",
+   "foot": 6,
+   "w": 58,
+   "h": 66
+  },
+  "buildings/house_town": {
+   "file": "buildings/house_town.png",
+   "foot": 6,
+   "w": 66,
+   "h": 92
+  },
+  "buildings/apartment": {
+   "file": "buildings/apartment.png",
+   "foot": 6,
+   "w": 90,
+   "h": 124
+  },
+  "buildings/farm_a": {
+   "file": "buildings/farm_a.png",
+   "foot": 10,
+   "w": 64,
+   "h": 44
+  },
+  "buildings/farm_b": {
+   "file": "buildings/farm_b.png",
+   "foot": 10,
+   "w": 64,
+   "h": 44
+  },
+  "buildings/farm_c": {
+   "file": "buildings/farm_c.png",
+   "foot": 10,
+   "w": 64,
+   "h": 44
+  },
+  "buildings/farm_irrigated": {
+   "file": "buildings/farm_irrigated.png",
+   "foot": 10,
+   "w": 72,
+   "h": 50
+  },
+  "buildings/farm_modern": {
+   "file": "buildings/farm_modern.png",
+   "foot": 10,
+   "w": 92,
+   "h": 58
+  },
+  "buildings/warehouse": {
+   "file": "buildings/warehouse.png",
+   "foot": 6,
+   "w": 70,
+   "h": 60
+  },
+  "buildings/granary": {
+   "file": "buildings/granary.png",
+   "foot": 6,
+   "w": 58,
+   "h": 62
+  },
+  "buildings/well": {
+   "file": "buildings/well.png",
+   "foot": 8,
+   "w": 42,
+   "h": 44
+  },
+  "buildings/workshop": {
+   "file": "buildings/workshop.png",
+   "foot": 6,
+   "w": 68,
+   "h": 62
+  },
+  "buildings/factory": {
+   "file": "buildings/factory.png",
+   "foot": 8,
+   "w": 116,
+   "h": 100
+  },
+  "buildings/market": {
+   "file": "buildings/market.png",
+   "foot": 6,
+   "w": 80,
+   "h": 64
+  },
+  "buildings/admin_hall": {
+   "file": "buildings/admin_hall.png",
+   "foot": 8,
+   "w": 100,
+   "h": 96
+  },
+  "buildings/manor": {
+   "file": "buildings/manor.png",
+   "foot": 8,
+   "w": 108,
+   "h": 100
+  },
+  "buildings/castle": {
+   "file": "buildings/castle.png",
+   "foot": 8,
+   "w": 132,
+   "h": 124
+  },
+  "buildings/wall_tower": {
+   "file": "buildings/wall_tower.png",
+   "foot": 6,
+   "w": 44,
+   "h": 78
+  },
+  "buildings/temple": {
+   "file": "buildings/temple.png",
+   "foot": 8,
+   "w": 100,
+   "h": 98
+  },
+  "buildings/assembly": {
+   "file": "buildings/assembly.png",
+   "foot": 8,
+   "w": 94,
+   "h": 80
+  },
+  "buildings/school": {
+   "file": "buildings/school.png",
+   "foot": 6,
+   "w": 84,
+   "h": 84
+  },
+  "buildings/hospital": {
+   "file": "buildings/hospital.png",
+   "foot": 6,
+   "w": 88,
+   "h": 88
+  },
+  "buildings/cooperative": {
+   "file": "buildings/cooperative.png",
+   "foot": 8,
+   "w": 92,
+   "h": 80
+  },
+  "buildings/construction": {
+   "file": "buildings/construction.png",
+   "foot": 6,
+   "w": 60,
+   "h": 68
+  },
+  "villagers/laborer_idle": {
+   "file": "villagers/laborer_idle.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/laborer_walk_a": {
+   "file": "villagers/laborer_walk_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/laborer_walk_b": {
+   "file": "villagers/laborer_walk_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/laborer_carry_a": {
+   "file": "villagers/laborer_carry_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/laborer_carry_b": {
+   "file": "villagers/laborer_carry_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/elite_idle": {
+   "file": "villagers/elite_idle.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/elite_walk_a": {
+   "file": "villagers/elite_walk_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/elite_walk_b": {
+   "file": "villagers/elite_walk_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/elite_carry_a": {
+   "file": "villagers/elite_carry_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/elite_carry_b": {
+   "file": "villagers/elite_carry_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/merchant_idle": {
+   "file": "villagers/merchant_idle.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/merchant_walk_a": {
+   "file": "villagers/merchant_walk_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/merchant_walk_b": {
+   "file": "villagers/merchant_walk_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/merchant_carry_a": {
+   "file": "villagers/merchant_carry_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/merchant_carry_b": {
+   "file": "villagers/merchant_carry_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/admin_idle": {
+   "file": "villagers/admin_idle.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/admin_walk_a": {
+   "file": "villagers/admin_walk_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/admin_walk_b": {
+   "file": "villagers/admin_walk_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/admin_carry_a": {
+   "file": "villagers/admin_carry_a.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "villagers/admin_carry_b": {
+   "file": "villagers/admin_carry_b.png",
+   "foot": 4,
+   "w": 30,
+   "h": 40
+  },
+  "ui/pow_forest": {
+   "file": "ui/pow_forest.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_fertile": {
+   "file": "ui/pow_fertile.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_water": {
+   "file": "ui/pow_water.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_ore": {
+   "file": "ui/pow_ore.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_rain": {
+   "file": "ui/pow_rain.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_drought": {
+   "file": "ui/pow_drought.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_bless": {
+   "file": "ui/pow_bless.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_enlight": {
+   "file": "ui/pow_enlight.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/pow_idea": {
+   "file": "ui/pow_idea.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_food": {
+   "file": "ui/res_food.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_wood": {
+   "file": "ui/res_wood.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_stone": {
+   "file": "ui/res_stone.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_metal": {
+   "file": "ui/res_metal.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_pop": {
+   "file": "ui/res_pop.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_know": {
+   "file": "ui/res_know.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_faith": {
+   "file": "ui/res_faith.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/res_coin": {
+   "file": "ui/res_coin.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_primitive": {
+   "file": "ui/form_primitive.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_slave": {
+   "file": "ui/form_slave.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_feudal": {
+   "file": "ui/form_feudal.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_capital": {
+   "file": "ui/form_capital.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_social": {
+   "file": "ui/form_social.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/form_mixed": {
+   "file": "ui/form_mixed.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_play": {
+   "file": "ui/ui_play.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_pause": {
+   "file": "ui/ui_pause.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_step": {
+   "file": "ui/ui_step.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_ff": {
+   "file": "ui/ui_ff.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_home": {
+   "file": "ui/ui_home.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_help": {
+   "file": "ui/ui_help.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_gear": {
+   "file": "ui/ui_gear.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_chronicle": {
+   "file": "ui/ui_chronicle.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_observer": {
+   "file": "ui/ui_observer.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_close": {
+   "file": "ui/ui_close.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_branch": {
+   "file": "ui/ui_branch.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ui_focus": {
+   "file": "ui/ui_focus.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_harvest": {
+   "file": "ui/ev_harvest.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_famine": {
+   "file": "ui/ev_famine.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_disease": {
+   "file": "ui/ev_disease.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_discovery": {
+   "file": "ui/ev_discovery.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_migration": {
+   "file": "ui/ev_migration.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_trade": {
+   "file": "ui/ev_trade.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_conflict": {
+   "file": "ui/ev_conflict.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_reform": {
+   "file": "ui/ev_reform.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_war": {
+   "file": "ui/ev_war.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_idea": {
+   "file": "ui/ev_idea.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_boom": {
+   "file": "ui/ev_boom.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_golden": {
+   "file": "ui/ev_golden.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_degrade": {
+   "file": "ui/ev_degrade.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_city": {
+   "file": "ui/ev_city.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/ev_inst": {
+   "file": "ui/ev_inst.png",
+   "foot": 6,
+   "w": 44,
+   "h": 44
+  },
+  "ui/banner_main": {
+   "file": "ui/banner_main.png",
+   "foot": 0,
+   "w": 1280,
+   "h": 420
+  }
+ }
+}

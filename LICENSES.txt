@@ -1,0 +1,26 @@
+Society Lab · 人类社会实验室 —— 许可与来源说明
+====================================================
+
+1. 代码（scripts/、tests/）
+   - 本项目原创，以 MIT 许可随项目发布。
+   - 允许自由修改、再分发；请保留本文件与 README 中的署名。
+
+2. 游戏美术与音频（assets/）
+   - 全部为本项目程序化生成（Python + Pillow 绘制；numpy 合成音频），
+     未使用任何第三方网络素材，无版权风险。
+   - 生成脚本随交付包 dev_tools/ 一并提供，可复现全部素材。
+
+3. 字体（assets/fonts/*.subset.ttf）
+   - Noto Serif SC（Regular/Black）：SIL Open Font License 1.1
+     来源：https://fonts.google.com/noto/specimen/Noto+Serif+SC
+   - Sarasa Mono SC：SIL Open Font License 1.1
+     来源：https://github.com/be5invis/Sarasa-Gothic
+   - 本仓库中的字体为按项目文本生成的子集（subset），
+     完整字体与许可文本请访问上述来源获取。
+   - 运行时另通过系统字体回退链（SystemFont）显示子集外字符，
+     系统字体版权归各自操作系统厂商。
+
+4. 本项目不包含、也不加载任何远程资源；无遥测。
+
+5. 免责声明：游戏中的一切社会演化均由可查看的模型假设驱动
+   （见 docs/核心模型假设说明.md），不构成对现实历史的断言。
